@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    margin:0;
+    box-sizing: border-box;
+    color:aliceblue;
+    background-color:rgb(10, 10, 44);
+    font-family: 'Comfortaa', cursive;
+}
+
+
+h1{
+    margin:5%;
+    font-family: 'Permanent Marker', cursive;
+}
+p{
+    font-size: 0.6rem;
+}
+.square{
+    border:1px solid aliceblue;
+    aspect-ratio: 1/1;
+    font-size: 4.2vw;
+    font-family: 'Rock Salt', cursive;
+    padding:0 4.17%;
+}
+
+.sq-00{
+    border-width: 0px 1px 1px 0px;
+}
+.sq-01{
+    border-width: 0px 1px 1px 1px;
+}
+.sq-02{
+    border-width: 0px 0px 1px 1px;
+}
+.sq-10{
+    border-width: 1px 1px 1px 0px;
+}
+.sq-11{
+    border-width: 1px 1px 1px 1px;
+}
+.sq-12{
+    border-width: 1px 0px 1px 1px;
+}
+.sq-20{
+    border-width: 1px 1px 0px 0px;
+}
+.sq-21{
+    border-width: 1px 1px 0px 1px;
+}
+.sq-22{
+    border-width: 1px 0px 0px 1px;
+}
+.game-board{
+
+    width:20%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+/* Animations */
+
+.animated-buttonClick{
+    /* font-size: 6vw; */
+    background-color: white;
+    color:rgb(10, 10, 44);
+}
+
+/* Buttons */
+.choice-btn{
+    font-size: 3vw;
+    width:10vw;
+    margin:0 2% 10px 2%;
+    font-family: 'Rock Salt', cursive;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:425px) {
+    .square{
+        font-size: 9.4vw;
+    }
+    .game-board{
+        width:50%;
+    }
+}
